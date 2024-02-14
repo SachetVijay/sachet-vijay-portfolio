@@ -234,4 +234,53 @@ export const Bio = {
       ],
     },
   ];
-  
+
+  export const experiences = [
+    {
+      id: 0,
+      img: "https://media.licdn.com/dms/image/C4D0BAQEqenskIJMXow/company-logo_200_200/0/1670235717320?e=2147483647&v=beta&t=Z-fhR70wlSflac2sPu8s9dR4IxItrGyRpskGc0e5RM8",
+      role: "Software Engineer Intern",
+      company: "The Learner Company",
+      date: "January 2024 - Present",
+      desc: "Enhanced user experiences on The Learner One by resolving bugs & reduced load time by 40%. Built and Remodeled UI using Next Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous database schema to make more efficint relations decreasing overall response delay",
+      skills: [
+        "NextJS",
+        "PostGreSQL",
+        "Azure Devops",
+        "Docker",
+        "AWS",
+      ],
+    },
+    {
+      id: 1,
+      img: "https://tse3.mm.bing.net/th?id=OIP.JN1shJzWQpkyJFA_xVliUwHaHd&pid=Api&P=0&h=180",
+      role: "Freelancer Full Stack Engineer",
+      company: "Detox Wealth",
+      date: "Aug 2023 - Oct 2023",
+      desc: "Engineered 3 Customised trading platform integrated with Kite Connect API to Achive quicker Order Placement. Deployed backend on Flask for faster execution and reducing time delays to near 0. Crafted 5 Algorithmic Trading bots by Automating user’s Strategies to reduce impact costs and human errors increasing overall profit.",
+      skills: [
+        "Flask",
+        "Python",
+        "Trading Algorithm Development",
+        "React Js",
+        "Kite Connect Api",
+      ],
+    },
+    {
+      id: 2,
+      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+      role: "Application Developer",
+      company: "Google Developer Students Club IIIT Surat",
+      date: "Sep2022 - May2023",
+      desc: "Orchestrated and delivered a series of impactful workshops and sessions, along with orchestrating the 72-hour DevHeat 2K22 Hackathon, engaging over 145 students as an esteemed Application Developer at Google Developer Students Club of IIIT SURAT. Provided guidance at the 3rd Edition of the DevHeat Beta Hackathon as a Mentor at Google Developer Students Club of IIIT SURAT.",
+      skills: [
+        "Leadership",
+        "Mobile Application Development",
+        "Flutter",
+        "Firebase",
+        "React Native",
+        "Figma",
+      ],
+    },
+    
+  ];

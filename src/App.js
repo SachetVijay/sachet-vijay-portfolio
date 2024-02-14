@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 import './App.css';
 import styled from "styled-components";
 
@@ -33,7 +34,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-            
+            <Experience />
           </Wrapper>
           
         </Body>
