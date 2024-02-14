@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import About from "./components/About";
+import Skills from "./components/Skills";
 import './App.css';
 import styled from "styled-components";
 
@@ -26,7 +29,14 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
-        
+        <Body>
+          <HeroSection />
+          <Wrapper>
+            <Skills />
+            
+          </Wrapper>
+          
+        </Body>
       </Router>
     </ThemeProvider>
   );
