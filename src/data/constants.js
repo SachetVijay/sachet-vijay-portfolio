@@ -355,3 +355,15 @@ export const Bio = {
     },
   ];
   
+
+  export const education = [
+    {
+      id: 0,
+      img: "https://linkingsky.com/career-news/images/indian-institute-of-information-technology-surat-iiit-surat.jpg",
+      school: "Indian Institute of Information Technology, Surat",
+      date: "Nov 2020 - July 2024",
+      grade: "7 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Indian Institute of Information Technology Surat. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Artifical Inteligence, Machine Learning, Natural Language Processing and Neural Networks, among others.",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+    },
+  ];
