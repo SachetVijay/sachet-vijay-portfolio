@@ -159,7 +159,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Machine Learning/ Artificial Intelligence",
+      title: "Machine Learning / Artificial Intelligence",
       skills: [
         {
           name: "Python",
@@ -241,7 +241,7 @@ export const Bio = {
       img: "https://media.licdn.com/dms/image/C4D0BAQEqenskIJMXow/company-logo_200_200/0/1670235717320?e=2147483647&v=beta&t=Z-fhR70wlSflac2sPu8s9dR4IxItrGyRpskGc0e5RM8",
       role: "Software Engineer Intern",
       company: "The Learner Company",
-      date: "January 2024 - Present",
+      date: "Feb 2024 - Present",
       desc: "Enhanced user experiences on The Learner One by resolving bugs & reduced load time by 40%. Built and Remodeled UI using Next Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous database schema to make more efficint relations decreasing overall response delay",
       skills: [
         "NextJS",
@@ -253,6 +253,19 @@ export const Bio = {
     },
     {
       id: 1,
+      img: "https://jainam.in/images/footer_logo.png",
+      role: "Algorithm Development Intern",
+      company: "Jainam Broking",
+      date: "Jan 2024",
+      desc: "Learned Algorithm development and product development using Django. Coded personalized trading indicators from scratch.",
+      skills: [
+        "Django",
+        "Python",
+        "Trading Algorithm Development",
+      ],
+    },
+    {
+      id: 2,
       img: "https://tse3.mm.bing.net/th?id=OIP.JN1shJzWQpkyJFA_xVliUwHaHd&pid=Api&P=0&h=180",
       role: "Freelancer Full Stack Engineer",
       company: "Detox Wealth",
@@ -267,7 +280,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
       role: "Application Developer",
       company: "Google Developer Students Club IIIT Surat",
@@ -282,5 +295,63 @@ export const Bio = {
         "Figma",
       ],
     },
-    
   ];
+
+
+  export const projects = [
+    {
+      id: 11,
+      title: "AI Interview Platform",
+      date: "Feb 2024",
+      description:
+        "AI powered Interview Platform to help students practice their Interviewing skills in whichever domain they want for their upcoming placement season.",
+      image:
+        "",
+      tags: [
+        "OpenAI GPT 3",
+        "Google Cloud Vision",
+        "React Js",
+        "Node Js",
+        "Express Js",
+        "Redux",
+        "MongoDB",
+      ],
+      category: "web app",
+      github: "https://github.com/SachetVijay/AI-Interview-Platform",
+      webapp: ":https://github.com/SachetVijay/AI-Interview-Platform",
+    },
+    {
+      id: 9,
+      title: "Classroom Management System",
+      date: "Jan 2024",
+      description:
+        "Designed a Responsive and User friendly UI using ReactJs to implement Classroom Management System to devise 2 Authorisation. Programmed Backend using Flask integrated with MongoDb to built 12 Restful API end points to perform Files and Data Transfer. Dockerized the app by Containerisation and Docker Compose to provide 0 hassle app setup in any environment.",
+      image:
+        "https://github.com/SachetVijay/suplimentry-management-system/blob/main/frontend/ClassroomMangementSystem.png",
+      tags: [
+        "Docker",
+        "React Js",
+        "MongoDb",
+        "Flask",
+        "Rest APIs",
+        "Redux",
+      ],
+      category: "web app",
+      github: "https://github.com/SachetVijay/suplimentry-management-system",
+      webapp: "https://github.com/SachetVijay/suplimentry-management-system",
+    },
+    {
+      id: 0,
+      title: "Blockchain-Enabled Loyalty & Rewards System for E-commerce",
+      date: "Aug 2023",
+      description:
+        "Developed a fully functional E-commerce platform with an integrated Loyalty and Reward System featuring well-defined tokenomics. Created a robust blockchain-enabled loyalty and rewards platform as part of a 2-week-long hackathon, Flipkart GRID. Utilized Solidity for smart contract development with flawless execution, enhanced frontend efficiency using Next.js, and utilized Node.js and Express.js for backend functionality, in conjunction with MongoDB for data management. Correctly implemented the solution onto the Polygon blockchain, incorporating fungible tokens to enhance transparency to boost user engagement with 100% remarkable outcomes.",
+      image:
+        "",
+      tags: ["BlockChain", "Solidity", "Polygon BlockChain Network", "Ethers.js", "Next Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      category: "web app",
+      github: "https://github.com/Root-Grid/Root_Grid5.0",
+      webapp: "https://github.com/Root-Grid/Root_Grid5.0",
+    },
+  ];
+  

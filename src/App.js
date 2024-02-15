@@ -7,6 +7,8 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import ProjectDetails from "./components/ProjectDetails";
 import './App.css';
 import styled from "styled-components";
 
@@ -36,8 +38,11 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
-          
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
         </Body>
+        {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          }
       </Router>
     </ThemeProvider>
   );
