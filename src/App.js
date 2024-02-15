@@ -10,6 +10,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
 import './App.css';
 import styled from "styled-components";
 
@@ -42,6 +43,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
         </Body>
         {openModal.state &&
