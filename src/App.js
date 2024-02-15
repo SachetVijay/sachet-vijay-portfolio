@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import './App.css';
 import styled from "styled-components";
 
@@ -45,6 +46,7 @@ function App() {
             <Education />
             <Contact />
           </Wrapper>
+          <Footer />
         </Body>
         {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
