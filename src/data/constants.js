@@ -338,7 +338,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/SachetVijay/suplimentry-management-system",
-      webapp: "https://github.com/SachetVijay/suplimentry-management-system",
+      webapp: "https://vercel.com/sachetvijay/suplimentry-management-system-5qhc",
     },
     {
       id: 0,
